@@ -24,6 +24,11 @@ class usuarios extends db
 }
 
 }
+
+public function listarUsuarios(){
+    $sql="SELECT * FROM usuarios";
+    return $sql[];
+  }
 }
 
 ?>

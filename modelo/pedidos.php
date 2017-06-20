@@ -20,7 +20,7 @@ public function crearPedido(){
 
     }else{
 
-      $sql="INSERT INTO pedidos (id,nombre,apellidos,talla,numero,precio) VALUES (NULL,'".$_POST['nombre']."','".$_POST['apellidos']."','".$_POST['talla']."','".$_POST['numero']."')";
+      $sql="INSERT INTO pedidos (id,nombre,apellidos,talla,numero,precio,color) VALUES (NULL,'".$_POST['nombre']."','".$_POST['apellidos']."','".$_POST['talla']."','".$_POST['numero']."','".$_POST['color']."')";
 
       $this->conexion()->query($sql);
     }
